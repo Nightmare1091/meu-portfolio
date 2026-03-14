@@ -8,10 +8,10 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, label: 'GitHub', url: '#' },
-    { icon: Linkedin, label: 'LinkedIn', url: '#' },
-    { icon: Instagram, label: 'Instagram', url: '#' },
-    { icon: Mail, label: 'Email', url: 'mailto:contato@guaradigital.com' },
+    { icon: Github, label: 'GitHub', url: 'https://github.com/Nightmare1091' },
+    { icon: Linkedin, label: 'LinkedIn', url: 'https://www.linkedin.com/in/jo%C3%A3o-pedro-1743163b0/' },
+    { icon: Instagram, label: 'Instagram', url: 'https://www.instagram.com/joaop_1091/' },
+    { icon: Mail, label: 'Email', url: 'mailto:jjoaopedrodeoliveira1091@gmail.com' },
   ];
 
   const scrollToSection = (id: string) => {

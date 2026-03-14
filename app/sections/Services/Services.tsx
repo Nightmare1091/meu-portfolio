@@ -1,5 +1,5 @@
 "use client";
-import { Globe, Smartphone, ShoppingCart, Rocket, Layers, Search } from 'lucide-react';
+import { Globe, Smartphone, ShoppingCart, Rocket, Layers, Search, Phone } from 'lucide-react';
 
 export function Services() {
   const services = [
@@ -8,6 +8,12 @@ export function Services() {
       title: 'Sites Institucionais',
       description: 'Websites profissionais que representam sua marca com elegância e eficiência',
       features: ['Design Responsivo', 'SEO Otimizado', 'Carregamento Rápido'],
+    },
+    {
+      icon: Phone,
+      title: 'Botão de WhatsApp',
+      description: 'Integração de botão de WhatsApp para contato direto com seus clientes',
+      features: ['Configuração Personalizada', 'Design Atraente', 'Fácil Integração'],
     },
     /*{
       icon: ShoppingCart,
